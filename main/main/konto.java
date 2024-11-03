@@ -37,12 +37,14 @@ public class konto {
             } else {
                 System.out.println("Insufficient funds. Withdrawal failed.");
                 return false;  
+            }
         } else {
             System.out.println("Withdrawal amount must be positive.");
             return false;  
         }
     }
 }
+
 
 /*
 By moving the balance management into a separate konto class and integrating it within the spiller class,
