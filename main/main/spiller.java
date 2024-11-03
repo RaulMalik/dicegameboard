@@ -1,5 +1,7 @@
 package main;
 
+import main.konto;
+
 public class spiller {
     private String playerName;
     private main.konto playerKonto;  // Instance of konto
